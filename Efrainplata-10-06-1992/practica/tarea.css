@@ -1,0 +1,78 @@
+
+body{
+   margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    background-image:url(dragonball.jpg);
+    
+}
+
+div{
+background-color: rgb(59, 172, 229);
+width: 450px;
+height: 660px;
+flex-direction: column;
+border: none;
+border-radius:30px;
+box-shadow:   1px 1px  10px  black;
+transition: 0.5s ease-in-out;
+text-align: center;
+opacity: 0.9;
+
+
+
+}
+div:hover{
+    background-color: rgb(59, 172, 229);
+    box-shadow: none;
+}
+img{
+    border-radius: 20px;
+
+}
+h1{
+    text-decoration: none;
+    font-family: arial;
+    margin-top: -30px;
+}
+
+button{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    margin: 10px;
+    font-size: 10px;
+    transition: 0.5s ease-in-out;
+    background: #b5aaaad4;
+}
+button:hover{
+background: #fff;
+}
+button,x{
+    font-size: 20px;
+    
+}
+p{
+    top: 10px;
+    font-style: italic;
+    margin: 20px;
+    text-size-adjust: 10px;
+    text-align: justify;
+
+}
+input{
+    width: 400px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    border:  3px solid rgb(8, 143, 233);
+    background: rgb(61, 170, 228);
+    transition: 0.5s ease-in-out;
+    font-family: arial;
+    text-decoration: none;
+}
+input:hover{
+    transform: scale(1.5);
+}

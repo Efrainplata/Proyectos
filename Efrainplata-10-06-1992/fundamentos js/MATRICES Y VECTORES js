@@ -1,0 +1,22 @@
+//Escribir un programa que indique de almacene en un arreglo 
+//unidimensional 100 datos e indique cuántos elementos positivos hay en el mismo.
+
+var dato = []
+for(var i = 0  ; i < 100; i++){
+    var random = Math.random ()*(200)-100;
+        Math.floor(random)
+    console.log(random)
+    i++;
+
+
+ }
+ 
+
+//Hacer el cálculo promedio de 5 notas en un algoritmo y definir si saca Excelente, 
+//sobresaliente, aceptable y deficiente para pasar el año con una sola variable tipo vector o array.
+var notas = prompt ("ingrese  la nota ")
+
+Array =[nota1, nota2, nota3, nota4, nota5]
+if ( nota1=aceptable){
+    alert("deficiente"+ nota1)
+}
